@@ -3,11 +3,11 @@
 This repository aims to analyse the survival rate, parameters dictating survival and survival patterns of passengers travelling on the famous ship Titanic, using Machine Learning.
 
 # Model Description
-Deployed a Logistic Regression model for the project. It was the most accurate fit as it was a classification problem, i.e either the passenger survived or they didn't.
+Implemented a Logistic Regression model within the project to address a classification problem, specifically predicting passenger survival outcomes. The model's selection was grounded in its aptitude for handling binary outcomes, reflecting the dichotomy of survival or non-survival in this context.
 
-Survival of the passengers depended on their status, their sex, fare paid by them to travel on the ship and their cabin class.
+The predictors contributing to passenger survival encompassed socio-economic status, gender, fare expenditure, and cabin class. These factors were pivotal in deciphering the likelihood of a passenger's survival on board.
 
-Using these parameters, the logistic regression model was first trained on training data, and later was used to predict whether a passenger survived or not on test data.
+The logistic regression model underwent a meticulous training process using designated training data. Subsequently, its acquired knowledge was applied to forecast survival outcomes on independent test data, demonstrating the model's generalizability.
 
-All data sources were taken from Kaggle.
+All pertinent data utilized in this analysis was sourced from Kaggle, a reputable platform for data science competitions and datasets.
 
